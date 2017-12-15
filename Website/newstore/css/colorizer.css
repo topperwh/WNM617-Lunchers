@@ -1,0 +1,126 @@
+
+.preview{
+  width: 100%;
+  height: 250px;
+  border: solid 10px #fff;
+}
+
+input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width:80px;
+  height: 80px;
+  margin: 10px;
+  background-size: 225px 70px;
+   cursor: pointer;
+  
+}
+
+input[type='radio']:hover{
+  -webkit-filter: opacity(.4);
+  filter: opacity(.4);    
+}
+.red, .yellow, .blue, .darkblue{
+  border-radius: 45%;
+  margin-left: 100px;
+  outline: none;
+}
+.red{
+  background: #e00018;
+}
+
+.red:hover{
+  background: #e00018;
+}
+
+.blue:hover{
+  background: #84d0f0;
+}
+
+.blue{
+  background: #84d0f0;
+}
+
+
+
+.yellow:checked, .blue:checked{
+  border: dotted black 3px;
+}
+
+.darkblue:checked, .red:checked{
+border: dotted white 3px;
+}
+
+.yellow{
+  background: #faed63;
+}
+
+
+
+
+
+.yellow:hover{
+  background: background: #faed63;
+}
+
+.darkblue:hover{
+  background: #1a2581;
+}
+
+.darkblue{
+  background: #1a2581;
+}
+
+
+/*.red:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 red);
+  filter: opacity(.5) drop-shadow(0 0 0 red) brightness(3);
+}
+
+.blue:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 blue);
+  filter: opacity(.5) drop-shadow(0 0 0 blue) brightness(3);
+}
+
+.yellow:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 yellow);
+  filter: opacity(.5) drop-shadow(0 0 0 yellow) brightness(3);
+}
+
+.darkblue:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 darkblue);
+  filter: opacity(.5) drop-shadow(0 0 0 darkblue) brightness(3);
+}
+
+.pink:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 pink);
+  filter: opacity(.5) drop-shadow(0 0 0 pink) brightness(3);
+}
+
+.black:checked ~ img{
+  -webkit-filter: opacity(1) drop-shadow(0 0 0 black);
+  filter: opacity(1) drop-shadow(0 0 0 black) brightness(3);
+}
+
+.silver:checked ~ img{
+  -webkit-filter: opacity(.2) drop-shadow(0 0 0 white);
+  filter: opacity(.2) drop-shadow(0 0 0 white);
+}
+
+.white:checked ~ img{
+  -webkit-filter: opacity(.2) drop-shadow(0 0 0 white);
+  filter: opacity(.2) drop-shadow(0 0 0 white);
+}*/
+
+
+.label{
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  top: 170px;
+  margin-left: 130px;
+}
+
+::selection{
+  background: pink;
+}

@@ -1,0 +1,862 @@
+.board {
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            background-color: grey;
+            padding: 5px;
+
+        }
+        .selectionTitle, .finalImage, .selectionName{
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+        }
+        .selectionTitle{
+            top: 30px;
+            left:10px;
+            } 
+            .finalImage{
+                top: 30px;
+            left:40%;
+                } 
+                .selectionName{
+                    top: 30px;
+            right:0;
+                }
+        #selections1, #selections2, #selections3, #selections4, #selections5{
+            position: relative;
+
+        }
+
+
+
+
+        #draggable1, 
+        #draggable2,
+
+        #draggable3{
+            z-index: 15;
+        }
+
+        #selection{
+            padding: 15px;
+        }
+
+        #finalImage4{
+            border-radius: 45%;
+            width: 75px;
+            height:75px;
+        }
+
+
+         #finalImage5, #finalImage3, #finalImage2, #finalImage1{
+            
+            width: 140px;
+            height:140px;
+           
+        }
+
+        #skip{
+                vertical-align: -webkit-baseline-middle;
+                right: 20px;
+    position: absolute;
+        }
+
+        .btn-lg{
+            vertical-align: top;
+            outline: none;
+        }
+
+        #pattern{
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        #patternHome{
+            width: 225px;
+            height: 100px;
+            border: solid black 1px;
+            margin: 0 auto;
+
+        }
+
+        #patternButtons{
+            width: 400px;
+    margin: 15px auto;
+        }
+        #patternText{
+            text-align: center;
+        }
+
+       
+
+        .custombar{
+            margin-top: 50px;
+        }
+        .navbar-toggler{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.navbar-toggler.collapsed{
+outline: none;
+}
+
+.navbar-toggler-icon{
+
+position: absolute;
+    right: 5px;
+    top: 18px;
+}
+
+button.navbar-toggler{
+    outline: none;
+    border: none;
+}
+.inline{
+    display: inline-block;
+}
+
+.navbar-light .navbar-toggler-icon{
+        background-image: url('../custom_files/hamburgerblue.png');
+        outline: none;
+}
+
+        .logo2{
+            margin-left: 70%;
+        }
+
+        .container{
+            margin-right:  0;
+            margin-left:  0;
+                text-align: left;
+                width: 100%;
+        }
+
+        p.directions{
+            text-align: center;
+            padding: 10px;
+            font-size: 1em;
+                
+        }
+
+        #sliderSelect .directions{
+            margin-left: -35px;
+        }
+        .preview{
+        margin-left: 15%;
+            
+            height: 150px;
+
+    }
+
+
+    input[type='radio'] {
+    width: 80px;
+    height: 80px;
+}
+
+        #droppable, .fabric{
+            width:250px;
+            height: 50px;
+        }
+
+        #droppable{
+            position: relative;
+            margin-top:15px;
+            margin-left: 20%;
+            border: solid gray 1px;
+            display: none;
+        }
+
+        .toppanel{
+            height: 50px;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
+        }
+.forward, .backward{
+    position: absolute;
+        right: 25px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.forward{
+    right: 25px;
+}
+
+.backward{
+       left: 25px;
+}
+            
+
+        .divider{
+            margin-bottom: 1em;
+        }
+
+        .col-md-2.col-sm-12{
+            display: none;
+        }
+        .col-md-5.col-sm-12{
+
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+       p.navpanel{margin-right: .2%;} 
+       .row{
+        margin-left: 0;
+        
+       }
+
+        .mini{
+width: 350px;
+    height: 165px;
+}
+.midi{
+width: 350px;
+    height: 240px;
+
+}
+
+.py-5{
+    width: 100%;
+}
+.textinbox{
+    padding: 0;
+    margin-top: 25px;
+}
+
+
+.col-md-3.col-sm-12{
+    border-right: none;
+        margin-left: 60px;
+}
+
+/*Animations*/
+
+
+
+.maxi{
+	
+     width: 350px;
+    height: 360px;
+}
+
+.midiright {
+  width: 350px;
+    height: 240px;
+    -webkit-animation-name: midiright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: midiright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes midiright {
+    0% {width: 350px;
+    height: 165px;}
+    100% {width: 350px;
+    height: 240px;}
+}
+
+/* Standard syntax */
+@keyframes midiright {
+  0% {width: 350px;
+    height: 165px;}
+    100% {width: 350px;
+    height: 240px;}
+}
+
+.flat-slider .ui-slider-handle {
+    width: 25px;
+    height: 27px;
+    background: #8C001A;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.flat-slider .ui-slider-handle:hover {
+    opacity: 1;
+}
+
+.maxiright {
+  width: 350px;
+    height: 360px;
+    -webkit-animation-name: maxiright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxiright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxiright {
+     0% {width: 350px;
+    height: 240px;}
+    100% {width: 350px;
+    height: 360px;}
+}
+
+/* Standard syntax */
+@keyframes maxiright {
+   0% {width: 350px;
+    height: 240px;}
+    100% {width: 350px;
+    height: 360px;}
+}
+
+.maxidragright {
+  width: 350px;
+    height: 360px;
+    -webkit-animation-name: maxidragright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxidragright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxidragright {
+     0% {width: 350px;
+    height: 165px;}
+    100% {width: 350px;
+    height: 360px;}
+}
+
+/* Standard syntax */
+@keyframes maxidragright {
+  0% {width: 350px;
+    height: 165px;}
+    100% {width: 350px;
+    height: 360px;}
+}
+
+.minidragleft {
+  width: 350px;
+    height: 165px;
+    -webkit-animation-name: minidragleft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: minidragleft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes minidragleft {
+    0% {width: 350px;
+    height: 360px;}
+    100% {width: 350px;
+    height: 165px;}
+}
+
+/* Standard syntax */
+@keyframes minidragleft {
+  0% {width: 350px;
+    height: 360px;}
+    100% {width: 350px;
+    height: 165px;}
+}
+
+.maxileft {
+  width: 350px;
+    height: 240px;
+    -webkit-animation-name: maxileft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxileft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxileft {
+    0% {width: 350px;
+    height: 360px;}
+    100% {width: 350px;
+    height: 240px;}
+}
+
+/* Standard syntax */
+@keyframes maxileft {
+ 0% {width: 350px;
+    height: 360px;}
+    100% {width: 350px;
+    height: 240px;}
+}
+
+.minileft {
+  width: 350px;
+    height: 165px;
+    -webkit-animation-name: minileft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: minileft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes minileft {
+    0% {width: 350px;
+    height: 240px;}
+    100% {width: 350px;
+    height: 165px;}
+}
+
+/* Standard syntax */
+@keyframes minileft {
+ 0% {width: 350px;
+    height: 240px;}
+    100% {width: 350px;
+    height: 165px;}
+}
+
+
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6{
+	display: none;
+}
+
+#dressslide{
+	display: none;
+}
+.mini {
+    width: 350px;
+    height: 165px;
+}
+
+.dresslenght{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+
+.holdercustom {
+    height: 750px;
+    width: 450px;
+    /* margin: 0 auto; */
+}
+
+
+
+.thumbnails{
+	text-align:center;
+}
+#flat-slider{
+	margin-left: 20%;
+}
+
+.thumb, #dress1, #dress2, #dress3{width: 106px;
+    }
+
+.col-md-5{
+	 -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+img.neckdisplay{
+	width: 185px;
+	height:185px;
+}
+
+img#dresslide{
+	width: 350px;
+	height:185px;
+}
+		.neckdrop{
+			top: 158px;
+			left: 126px;
+		}
+#dressdrop{
+	position: absolute;
+	top: 0px;
+	z-index: 5;
+	right: 0;
+    width: 100%;
+    height:100%;
+}
+#dress1, #dress2, #dress3, #neck1, #neck2, #neck3, p.directions{
+    margin-left: 30px;
+}
+		#dress1, #dress2, #dress3, #neck1, #neck2, #neck3, #neck4, #dressdrop, #neckdrop, .dresslenght{
+  cursor: pointer;
+
+}
+
+
+.col-md-2, .col-sm-12{
+    position: relative;
+    width: 450px;
+    /* height: 0; */
+    /* height: 500px; */
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+}
+
+@media (min-width: 576px){
+.col-sm-12{
+ -ms-flex: 0 0 450px;
+    flex: 0 0 450px;
+    max-width: 450px;
+    margin-left: 100px;
+
+}
+
+.col-md-5.col-sm-12{
+-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+.container{
+        
+                width: 100%;
+        }
+
+
+
+}/*End of Media 576px*/
+
+
+@media (min-width: 768px){
+    #dress1, #dress2, #dress3, #neck1, #neck2, #neck3, p.directions{
+    margin-left: 10px;
+}
+.container{
+        
+                width: 100%;
+        }
+
+    #flat-slider{
+    margin-left: 7%;
+}
+    .preview{
+        margin-left: 2%;
+
+    }
+
+     .logo2{
+            margin-left: 100%;
+        }
+
+    input[type='radio'] {
+    width: 60px;
+    height: 60px;
+}
+
+    #droppable{
+           
+            margin-left: 40px;
+          
+        }
+    #droppable, .fabric{
+            width:200px;
+            height: 60px;
+        }
+
+
+.divider {
+    margin-bottom: 4.5em;
+    width: 100%;
+}
+
+       p.navpanel{margin-right: 0px;} 
+
+       .holdercustom {
+    height: 500px;
+}
+
+.textinbox{
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+
+.col-md-2 {
+    -ms-flex: 0 0 6.666667%;
+    flex: 0 0 6.666667%;
+    max-width: 6.666667%;
+}
+
+.toppanel{
+    width: 100%;
+}
+
+
+.col-md-3 {
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+    max-width: 300px;
+}
+/*.col-md-5{
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}*/
+.col-md-5.col-sm-12 {
+    -ms-flex: 0 0 365px;
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+/*.col-sm-12 {
+    margin-left: 85px;
+}*/
+.col-md-3.col-sm-12{
+    border-right: solid gray 1px;
+    margin-left: 85px;
+}
+
+#dressdrop{
+	position: absolute;
+	top:0px;
+	right: 0;
+	z-index: 5;
+    height:100%;
+
+}
+
+img.neckdisplay{
+	width: 115px;
+	height: 130px;
+}
+#neckdrop{
+	top: 103px;
+	left: 88px;
+}
+
+.dresslenght{
+	top: 205px;
+	left: 50px;
+}
+.mini{
+ width: 230px;
+    height: 115px;
+}
+.midi{
+width: 230px;
+    height: 145px;
+
+}
+
+.maxi{
+	
+     width: 230px;
+    height: 250px;
+}
+
+
+/*Animations*/
+
+.midiright {
+  width: 230px;
+    height: 145px;
+    -webkit-animation-name: midiright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: midiright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes midiright {
+    0% {width: 230px;
+    height: 115px;}
+    100% {width: 230px;
+    height: 145px;}
+}
+
+/* Standard syntax */
+@keyframes midiright {
+  0% {width: 230px;
+    height: 115px;}
+    100% {width: 230px;
+    height: 145px;}
+}
+
+.maxiright {
+  width: 230px;
+    height: 250px;
+    -webkit-animation-name: maxiright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxiright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxiright {
+     0% {width: 230px;
+    height: 145px;}
+    100% {width: 230px;
+    height: 250px;}
+}
+
+/* Standard syntax */
+@keyframes maxiright {
+   0% {width: 230px;
+    height: 145px;}
+    100% {width: 230px;
+    height: 250px;}
+}
+
+.maxidragright {
+  width: 230px;
+    height: 250px;
+    -webkit-animation-name: maxidragright; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxidragright;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxidragright {
+     0% {width: 230px;
+    height: 115px;}
+    100% {width: 230px;
+    height: 250px;}
+}
+
+/* Standard syntax */
+@keyframes maxidragright {
+  0% {width: 230px;
+    height: 115px;}
+    100% {width: 230px;
+    height: 250px;}
+}
+
+.minidragleft {
+  width: 230px;
+    height: 115px;
+    -webkit-animation-name: minidragleft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: minidragleft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes minidragleft {
+    0% {width: 230px;
+    height: 250px;}
+    100% {width: 230px;
+    height: 115px;}
+}
+
+/* Standard syntax */
+@keyframes minidragleft {
+  0% {width: 230px;
+    height: 250px;}
+    100% {width: 230px;
+    height: 115px;}
+}
+
+.maxileft {
+  width: 230px;
+    height: 145px;
+    -webkit-animation-name: maxileft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: maxileft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes maxileft {
+    0% {width: 230px;
+    height: 250px;}
+    100% {width: 230px;
+    height: 145px;}
+}
+
+/* Standard syntax */
+@keyframes maxileft {
+ 0% {width: 230px;
+    height: 250px;}
+    100% {width: 230px;
+    height: 145px;}
+}
+
+.minileft {
+  width: 230px;
+    height: 115px;
+    -webkit-animation-name: minileft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: 2s;*/ /* Safari 4.0 - 8.0 */
+    animation-name: minileft;
+    animation-duration: 1s;
+    /*animation-delay: 1s;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes minileft {
+    0% {width: 230px;
+    height: 145px;}
+    100% {width: 230px;
+    height: 115px;}
+}
+
+/* Standard syntax */
+@keyframes minileft {
+ 0% {width: 230px;
+    height: 145px;}
+    100% {width: 230px;
+    height: 115px;}
+}
+
+.mini {
+    width: 230px;
+    height: 115px;
+}
+
+}/* End of Media 768px*/
+
+
+@media (min-width: 960px){
+
+    .container{
+        
+                width: 100%;
+        }
+
+ .col-md-5.col-sm-12 {
+    -ms-flex: 0 0 59%;
+    flex: 0 0 59%;
+    max-width: 59%;
+}
+
+    .preview{
+        margin-left: 10%;
+
+    }
+
+    
+
+    input[type='radio'] {
+    width: 80px;
+    height: 80px;
+}
+#flat-slider{
+    margin-left: 20%;
+}
+}
