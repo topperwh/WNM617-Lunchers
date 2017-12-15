@@ -9,9 +9,9 @@ Instucture : Deepa Mahalingam
 
 Fall 2017 (September 5th - December 18th)
 
-Natalie Crane
-Chris Jackson
-Chengzhe Jin
+Natalie Crane,
+Chris Jackson,
+Chengzhe Jin,
 Topper Wonghart
 
 
