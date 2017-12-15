@@ -77,32 +77,32 @@ p.navpanel {
 }
 
 .cl1 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/manican.png') no-repeat;
+	background: url('../newstore/img/manican.png') no-repeat;
     background-size: 100%;
     background-color: white;
 
 }
 
 .l1 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/le_l1bg.png') no-repeat;
+	background: url('../newstore/img/le_l1bg.png') no-repeat;
     background-size: 100%;
     background-color: #FFA989;
 }
 
 .r1 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/le_r1bg.png') no-repeat;
+	background: url('../newstore/img/le_r1bg.png') no-repeat;
     background-size: 100%;
     background-color: #3C3837;
 }
 
 .l2 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/le_l2bg.png') no-repeat;
+	background: url('../newstore/img/le_l2bg.png') no-repeat;
     background-size: 100%;
     background-color: #E277A5;
 }
 
 .l31 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/le_l3bg.png') no-repeat;
+	background: url('../newstore/img/le_l3bg.png') no-repeat;
     background-size: 100%;
     background-color: #FAEE64;
 }
@@ -112,7 +112,7 @@ p.navpanel {
 }
 
 .r3 {
-	background: url('http://topperwh.webhostingforstudents.com/617-store/img/le_r3bg.png') no-repeat;
+	background: url('../newstore/img/le_r3bg.png') no-repeat;
     background-size: 100%;
     background-color: #FFA989;
 }
